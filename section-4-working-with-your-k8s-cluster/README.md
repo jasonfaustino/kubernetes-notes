@@ -2,13 +2,14 @@
 Kubernetes follow this command syntax
 ```
 kubectl [command] [type] [name] [flags]
-```
+
 where:
-`command` - what you want it to do
-`type` - where your want it act on
-`name` - specific object you want to check
-`flags` - optional variables
---
+command - what you want it to do
+type - where your want it act on
+name - specific object you want to check
+flags - optional variables
+```
+
 ## Commands
 1. `apply/create` - create resources
 2. `run` - start a pod from an image
